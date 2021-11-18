@@ -23,3 +23,5 @@ INSERT INTO Veiculo(codigo, modelo, cod_pessoa)
 	
 SELECT P.nome, V.modelo FROM Pessoa as P, Veiculo as V 
 	WHERE V.cod_pessoa = P.codigo; 
+
+console.log("Hello Hello Pessoal");
